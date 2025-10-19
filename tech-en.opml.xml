@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+    <head>
+        <title>Tech (EN)</title>
+    </head>
+    <body>
+        <outline text="Tech (EN)">
+            <outline text="ACM Queue" type="rss" xmlUrl="https://queue.acm.org/rss/feeds/queuecontent.xml"/>
+            <outline text="Martin Fowler" type="rss" xmlUrl="https://martinfowler.com/feed.atom"/>
+            <outline text="InfoQ" type="rss" xmlUrl="https://feed.infoq.com/"/>
+            <outline text="GitHub Changelog" type="rss" xmlUrl="https://github.blog/changelog/feed/"/>
+            <outline text="Google Engineering" type="rss" xmlUrl="https://developers.googleblog.com/atom.xml"/>
+            <outline text="Netflix TechBlog" type="rss" xmlUrl="https://netflixtechblog.com/feed"/>
+            <outline text="Uber Engineering" type="rss" xmlUrl="https://eng.uber.com/feed/"/>
+            <outline text="Meta Engineering" type="rss" xmlUrl="https://engineering.fb.com/feed/"/>
+            <outline text="Cloudflare Blog" type="rss" xmlUrl="https://blog.cloudflare.com/rss/"/>
+            <outline text="Google SRE" type="rss" xmlUrl="https://sre.google/atom.xml"/>
+            <outline text="AWS News Blog" type="rss" xmlUrl="https://aws.amazon.com/blogs/aws/feed/"/>
+            <outline text="Azure Updates" type="rss" xmlUrl="https://azurecomcdn.azureedge.net/en-us/updates/feed/"/>
+            <outline text="Google Cloud Blog" type="rss" xmlUrl="https://cloud.google.com/blog/rss/"/>
+            <outline text="Kubernetes Blog" type="rss" xmlUrl="https://kubernetes.io/feed.xml"/>
+            <outline text="CNCF Blog" type="rss" xmlUrl="https://www.cncf.io/feed/"/>
+            <outline text="HashiCorp Blog" type="rss" xmlUrl="https://www.hashicorp.com/blog/index.xml"/>
+            <outline text="Grafana Blog" type="rss" xmlUrl="https://grafana.com/blog/rss/"/>
+            <outline text="Datadog Engineering" type="rss" xmlUrl="https://www.datadoghq.com/blog/engineering/feed/"/>
+            <outline text="Honeycomb Blog" type="rss" xmlUrl="https://www.honeycomb.io/blog/rss/"/>
+            <outline text="Gremlin" type="rss" xmlUrl="https://www.gremlin.com/blog/rss/"/>
+            <outline text="incident.io" type="rss" xmlUrl="https://incident.io/blog/rss.xml"/>
+            <outline text="OpenAI" type="rss" xmlUrl="https://openai.com/blog/rss.xml"/>
+            <outline text="Google DeepMind" type="rss" xmlUrl="https://deepmind.google/discover/rss.xml"/>
+            <outline text="Anthropic" type="rss" xmlUrl="https://www.anthropic.com/news/rss.xml"/>
+            <outline text="Meta AI" type="rss" xmlUrl="https://ai.facebook.com/blog/rss/"/>
+            <outline text="Hugging Face" type="rss" xmlUrl="https://huggingface.co/blog/feed.xml"/>
+            <outline text="Papers with Code — Trending" type="rss" xmlUrl="https://paperswithcode.com/rss/trending"/>
+            <outline text="arXiv cs.AI" type="rss" xmlUrl="http://export.arxiv.org/rss/cs.AI"/>
+            <outline text="arXiv cs.LG" type="rss" xmlUrl="http://export.arxiv.org/rss/cs.LG"/>
+            <outline text="arXiv stat.ML" type="rss" xmlUrl="http://export.arxiv.org/rss/stat.ML"/>
+            <outline text="The Gradient" type="rss" xmlUrl="https://thegradient.pub/rss/"/>
+            <outline text="Sebastian Raschka" type="rss" xmlUrl="https://magazine.sebastianraschka.com/feed"/>
+            <outline text="Chip Huyen" type="rss" xmlUrl="https://huyenchip.com/feed.xml"/>
+            <outline text="Linux Foundation" type="rss" xmlUrl="https://www.linuxfoundation.org/feed/"/>
+            <outline text="The New Stack" type="rss" xmlUrl="https://thenewstack.io/blog/feed/"/>
+            <outline text="GitLab Blog" type="rss" xmlUrl="https://about.gitlab.com/atom.xml"/>
+            <outline text="JetBrains Blog" type="rss" xmlUrl="https://blog.jetbrains.com/feed/"/>
+            <outline text="Rust Blog" type="rss" xmlUrl="https://blog.rust-lang.org/feed.xml"/>
+            <outline text="Go Blog" type="rss" xmlUrl="https://go.dev/blog/feed.atom"/>
+            <outline text="Python Insider" type="rss" xmlUrl="https://blog.python.org/feeds/posts/default"/>
+            <outline text="Node.js Blog" type="rss" xmlUrl="https://nodejs.org/en/feed/blog.xml"/>
+            <outline text="Postgres Weekly" type="rss" xmlUrl="https://postgresweekly.com/rss/"/>
+            <outline text="Krebs on Security" type="rss" xmlUrl="https://krebsonsecurity.com/feed/"/>
+            <outline text="Project Zero" type="rss" xmlUrl="https://googleprojectzero.blogspot.com/feeds/posts/default"/>
+            <outline text="Trail of Bits" type="rss" xmlUrl="https://blog.trailofbits.com/feed/"/>
+            <outline text="CISA Alerts" type="rss" xmlUrl="https://www.cisa.gov/cybersecurity-advisories/all.xml"/>
+            <outline text="The Pragmatic Engineer" type="rss" xmlUrl="https://newsletter.pragmaticengineer.com/feed"/>
+            <outline text="ByteByteGo" type="rss" xmlUrl="https://blog.bytebytego.com/feed"/>
+            <outline text="High Scalability" type="rss" xmlUrl="http://feeds.feedburner.com/HighScalability"/>
+            <outline text="The Verge" type="rss" xmlUrl="https://www.theverge.com/rss/index.xml"/>
+            <outline text="Wired" type="rss" xmlUrl="https://www.wired.com/feed/rss"/>
+            <outline text="Hacker News" type="rss" xmlUrl="https://news.ycombinator.com/rss"/>
+        </outline>
+    </body>
+</opml>

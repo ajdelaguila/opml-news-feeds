@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+    <head>
+        <title>Romania (free-first)</title>
+    </head>
+    <body>
+        <outline text="Romania (free-first)">
+            <outline text="HotNews.ro" type="rss" xmlUrl="https://rss.hotnews.ro/"/>
+            <outline text="Digi24" type="rss" xmlUrl="https://www.digi24.ro/rss"/>
+            <outline text="G4Media" type="rss" xmlUrl="https://www.g4media.ro/feed"/>
+            <outline text="Europa Liberă România" type="rss" xmlUrl="https://romania.europalibera.org/api/zm$ute$-vum"/>
+            <outline text="PressOne" type="rss" xmlUrl="https://pressone.ro/rss"/>
+            <outline text="RFI România" type="rss" xmlUrl="https://www.rfi.ro/rss.xml"/>
+            <outline text="Economedia" type="rss" xmlUrl="https://economedia.ro/feed"/>
+            <outline text="Recorder (YouTube)" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCUpkZvnjV0hJ5aR5uP3wrVA"/>
+            <outline text="Libertatea" type="rss" xmlUrl="https://www.libertatea.ro/feed"/>
+        </outline>
+    </body>
+</opml>

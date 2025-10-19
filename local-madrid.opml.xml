@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+    <head>
+        <title>Local — Madrid</title>
+    </head>
+    <body>
+        <outline text="Local — Madrid">
+            <outline text="Ayuntamiento de Madrid" type="rss" xmlUrl="https://www.madrid.es/UnidadesDescentralizadas/UDCMedios/noticias/TodasLasNoticias/todas_noticias_RSS.xml"/>
+            <outline text="Telemadrid" type="rss" xmlUrl="https://www.telemadrid.es/rss/rssPortada.xml"/>
+            <outline text="El País Madrid (free items)" type="rss" xmlUrl="https://elpais.com/rss/ccaa/madrid.xml"/>
+            <outline text="20 Minutos Madrid" type="rss" xmlUrl="https://www.20minutos.es/rss/madrid/"/>
+            <outline text="Madrid Actual" type="rss" xmlUrl="https://www.madridactual.es/rss/madrid"/>
+            <outline text="Madrid Diario" type="rss" xmlUrl="https://www.madriddiario.es/rss.asp"/>
+            <outline text="Somos Madrid" type="rss" xmlUrl="https://www.somosmadrid.com/feed/"/>
+        </outline>
+    </body>
+</opml>

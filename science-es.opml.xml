@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+    <head>
+        <title>Science-ES</title>
+    </head>
+    <body>
+        <outline text="Science-ES">
+            <outline text="Agencia SINC" type="rss" xmlUrl="https://www.agenciasinc.es/rss"/>
+            <outline text="Naukas" type="rss" xmlUrl="https://naukas.com/feed/"/>
+            <outline text="Xataka Ciencia" type="rss" xmlUrl="https://www.xatakaciencia.com/index.xml"/>
+            <outline text="National Geographic en Español" type="rss" xmlUrl="https://www.nationalgeographic.es/rss.xml"/>
+        </outline>
+    </body>
+</opml>

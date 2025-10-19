@@ -1,0 +1,8 @@
+name: 'English News Feeds'
+description: 'All English language news feeds'
+output: 'all-en-news-feeds.opml.xml'
+sources:
+  - global-briefing.opml.xml
+  - tech-en.opml.xml
+  - science-en.opml.xml
+  - football-real-madrid.opml.xml

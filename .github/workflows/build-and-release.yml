@@ -1,0 +1,101 @@
+name: Build and Release News Feed Bundles
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyyaml
+      
+      - name: Validate OPML files
+        run: |
+          python scripts/build_bundles.py --validate-only
+      
+      - name: Build bundles
+        run: |
+          python scripts/build_bundles.py --build-only
+      
+      - name: Generate version
+        id: version
+        run: |
+          # Generate version based on date and commit
+          VERSION="v$(date +'%Y.%m.%d')-$(git rev-parse --short HEAD)"
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "Generated version: $VERSION"
+      
+      - name: Create release notes
+        id: release_notes
+        run: |
+          # Count OPML files and bundles
+          OPML_COUNT=$(find . -maxdepth 1 -name "*.opml.xml" | wc -l)
+          BUNDLE_COUNT=$(find dist -name "*.opml.xml" 2>/dev/null | wc -l)
+          
+          cat > release_notes.md << EOF
+          ## News Feed Bundles Release
+          
+          **Version:** ${{ steps.version.outputs.version }}
+          **Date:** $(date +'%Y-%m-%d %H:%M:%S UTC')
+          **Commit:** \`$(git rev-parse HEAD)\`
+          
+          ### 📊 Statistics
+          - **Source OPML Files:** ${OPML_COUNT}
+          - **Generated Bundles:** ${BUNDLE_COUNT}
+          
+          ### 📦 Available Bundles
+          - **all-news-feeds.opml.xml** - Complete collection (all languages)
+          - **all-en-news-feeds.opml.xml** - English feeds only
+          - **all-es-news-feeds.opml.xml** - Spanish feeds only
+          - **all-ro-news-feeds.opml.xml** - Romanian feeds only
+          
+          ### 📝 Recent Changes
+          \`\`\`
+          $(git log -5 --pretty=format:"- %s (%an)" --no-merges)
+          \`\`\`
+          
+          ### 🔗 Usage
+          Import these OPML files into your favorite RSS reader to get started!
+          EOF
+          
+          cat release_notes.md
+      
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.version.outputs.version }}
+          name: News Feed Bundles ${{ steps.version.outputs.version }}
+          body_path: release_notes.md
+          files: |
+            dist/*.opml.xml
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: news-feed-bundles-${{ steps.version.outputs.version }}
+          path: dist/
+          retention-days: 90

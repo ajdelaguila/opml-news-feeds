@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+    <head>
+        <title>Global Briefing</title>
+    </head>
+    <body>
+        <outline text="Global Briefing">
+            <outline text="Reuters World" type="rss" xmlUrl="https://www.reuters.com/world/rss"/>
+            <outline text="AP News Top" type="rss" xmlUrl="https://apnews.com/hub/ap-top-news?utm_source=rss"/>
+            <outline text="BBC World" type="rss" xmlUrl="http://feeds.bbci.co.uk/news/world/rss.xml"/>
+            <outline text="Euronews" type="rss" xmlUrl="https://www.euronews.com/rss?level=theme&amp;name=news"/>
+            <outline text="Politico Europe" type="rss" xmlUrl="https://www.politico.eu/feed/"/>
+            <outline text="Associated Press" type="rss" xmlUrl="https://apnews.com/hub/ap-top-news/rss"/>
+        </outline>
+    </body>
+</opml>

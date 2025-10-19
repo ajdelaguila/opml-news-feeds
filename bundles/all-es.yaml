@@ -1,0 +1,9 @@
+name: 'Spanish News Feeds'
+description: 'All Spanish language news feeds'
+output: 'all-es-news-feeds.opml.xml'
+sources:
+  - tech-es.opml.xml
+  - science-es.opml.xml
+  - spain-free-first.opml.xml
+  - local-madrid.opml.xml
+  - local-almeria.opml.xml
