@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+    <head>
+        <title>Science (EN)</title>
+    </head>
+    <body>
+        <outline text="Science (EN)">
+            <outline text="Nature News" type="rss" xmlUrl="https://www.nature.com/subjects/news.rss"/>
+            <outline text="Science Magazine News" type="rss" xmlUrl="https://www.science.org/rss/news_current.xml"/>
+            <outline text="Quanta Magazine" type="rss" xmlUrl="https://www.quantamagazine.org/feed/"/>
+            <outline text="Ars Technica Science" type="rss" xmlUrl="https://feeds.arstechnica.com/arstechnica/science"/>
+            <outline text="NASA Blogs" type="rss" xmlUrl="https://blogs.nasa.gov/feed/"/>
+            <outline text="ESA News" type="rss" xmlUrl="https://www.esa.int/rssfeed/Our_Activities/Space_News"/>
+            <outline text="The Conversation - Science &amp; Tech" type="rss" xmlUrl="https://theconversation.com/global/topics/science-16/articles.atom"/>
+            <outline text="New Scientist" type="rss" xmlUrl="https://www.newscientist.com/feed/rss/"/>
+            <outline text="Scientific American" type="rss" xmlUrl="https://www.scientificamerican.com/feed/rss/"/>
+            <outline text="Smithsonian Magazine" type="rss" xmlUrl="https://www.smithsonianmag.com/rss/latest_articles/"/>
+        </outline>
+    </body>
+</opml>

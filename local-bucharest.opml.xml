@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+    <head>
+        <title>Local — Bucharest</title>
+    </head>
+    <body>
+        <outline text="Local — Bucharest">
+            <outline text="Primăria Municipiului București" type="rss" xmlUrl="https://pmb.ro/ro/rss"/>
+            <outline text="HotNews București" type="rss" xmlUrl="https://rss.hotnews.ro/stiri/administratie-locala"/>
+            <outline text="Digi24 București (general feed useful)" type="rss" xmlUrl="https://www.digi24.ro/rss"/>
+            <outline text="G4Media București (site-wide)" type="rss" xmlUrl="https://www.g4media.ro/feed"/>
+            <outline text="Adevărul (site-wide free items)" type="rss" xmlUrl="https://adev.ro/rss"/>
+            <outline text="RFI București" type="rss" xmlUrl="https://www.rfi.ro/rss.xml"/>
+            <outline text="Buletin de București" type="rss" xmlUrl="https://buletin.de/bucuresti/feed/"/>
+        </outline>
+    </body>
+</opml>

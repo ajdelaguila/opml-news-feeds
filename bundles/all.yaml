@@ -1,0 +1,17 @@
+name: 'Complete News Feed Collection'
+description: 'All news feeds across all languages and categories'
+output: 'all-news-feeds.opml.xml'
+sources:
+  - global-briefing.opml.xml
+  - tech-en.opml.xml
+  - science-en.opml.xml
+  - tech-es.opml.xml
+  - tech-ro.opml.xml
+  - science-es.opml.xml
+  - science-ro.opml.xml
+  - football-real-madrid.opml.xml
+  - spain-free-first.opml.xml
+  - romania-free-first.opml.xml
+  - local-madrid.opml.xml
+  - local-almeria.opml.xml
+  - local-bucharest.opml.xml

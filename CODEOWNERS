@@ -1,0 +1,15 @@
+# CODEOWNERS file for opml-news-feeds repository
+# 
+# This file defines the ownership of all files in the repository.
+# The owner will be automatically requested for review on pull requests.
+#
+# More info: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Global owner - all files in the repository
+* @ajdelaguila
+
+# Specific ownership for critical files
+/.github/workflows/* @ajdelaguila
+/scripts/* @ajdelaguila
+/bundles/* @ajdelaguila
+*.opml.xml @ajdelaguila

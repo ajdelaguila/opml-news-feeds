@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+    <head>
+        <title>Spain (free-first)</title>
+    </head>
+    <body>
+        <outline text="Spain (free-first)">
+            <outline text="El Diario" type="rss" xmlUrl="https://www.eldiario.es/rss/"/>
+            <outline text="Europa Press (Nacional)" type="rss" xmlUrl="https://www.europapress.es/rss/rss.aspx"/>
+            <outline text="RTVE Noticias" type="rss" xmlUrl="https://www.rtve.es/api/temas/160/atom/"/>
+            <outline text="Cadena SER" type="rss" xmlUrl="https://cadenaser.com/rss.html"/>
+            <outline text="Público" type="rss" xmlUrl="https://www.publico.es/rss/"/>
+            <outline text="Euronews (ES)" type="rss" xmlUrl="https://es.euronews.com/rss?level=theme&amp;name=news"/>
+            <outline text="eldiario.es" type="rss" xmlUrl="https://www.eldiario.es/rss/"/>
+        </outline>
+    </body>
+</opml>

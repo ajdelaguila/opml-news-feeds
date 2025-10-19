@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+    <head>
+        <title>Tech-RO</title>
+    </head>
+    <body>
+        <outline text="Tech-RO">
+            <outline text="Start-up.ro" type="rss" xmlUrl="https://start-up.ro/rss/"/>
+            <outline text="Mindcraft Stories" type="rss" xmlUrl="https://mindcraftstories.ro/feed/"/>
+            <outline text="ZonaIT" type="rss" xmlUrl="https://zonait.ro/feed/"/>
+            <outline text="Go4IT" type="rss" xmlUrl="https://www.go4it.ro/feed/"/>
+            <outline text="HotNews.ro Știință/IT" type="rss" xmlUrl="https://rss.hotnews.ro/stiri/stiinta-it"/>
+            <outline text="Economedia (Tech/Business)" type="rss" xmlUrl="https://economedia.ro/feed"/>
+            <outline text="Panorama.ro" type="rss" xmlUrl="https://panorama.ro/feed/"/>
+            <outline text="Mobilissimo" type="rss" xmlUrl="https://www.mobilissimo.ro/feed"/>
+        </outline>
+    </body>
+</opml>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+    <head>
+        <title>Football: Real Madrid</title>
+    </head>
+    <body>
+        <outline text="Football: Real Madrid">
+            <outline text="Real Madrid Official" type="rss" xmlUrl="https://www.realmadrid.com/noticias/rss"/>
+            <outline text="Marca Real Madrid" type="rss" xmlUrl="https://e00-marca.uecdn.es/rss/futbol/real-madrid.xml"/>
+            <outline text="AS Real Madrid" type="rss" xmlUrl="https://as.com/rss/futbol/real-madrid.xml"/>
+            <outline text="Relevo Real Madrid" type="rss" xmlUrl="https://www.relevo.com/rss/real-madrid.xml"/>
+            <outline text="Managing Madrid" type="rss" xmlUrl="https://www.managingmadrid.com/rss/index.xml"/>
+            <outline text="UEFA.com News" type="rss" xmlUrl="https://www.uefa.com/rssfeed/uefaeuro/rss.xml"/>
+            <outline text="LaLiga News" type="rss" xmlUrl="https://www.laliga.com/rss/laliga-santander"/>
+            <outline text="Opta Analyst" type="rss" xmlUrl="https://theanalyst.com/eu/football/feed/"/>
+            <outline text="WhoScored News" type="rss" xmlUrl="https://www.whoscored.com/Articles/Feed"/>
+            <outline text="The Athletic" type="rss" xmlUrl="https://theathletic.com/rss/"/>
+        </outline>
+    </body>
+</opml>

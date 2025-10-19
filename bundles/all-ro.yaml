@@ -1,0 +1,8 @@
+name: 'Romanian News Feeds'
+description: 'All Romanian language news feeds'
+output: 'all-ro-news-feeds.opml.xml'
+sources:
+  - tech-ro.opml.xml
+  - science-ro.opml.xml
+  - romania-free-first.opml.xml
+  - local-bucharest.opml.xml
