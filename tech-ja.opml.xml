@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+    <head>
+        <title>Tech (JA)</title>
+    </head>
+    <body>
+        <outline text="Tech (JA)">
+            <outline text="情報の灯台 / Joho no Todai" type="rss" xmlUrl="https://joho-todai.com/pinterest-rss/" htmlUrl="https://joho-todai.com/" description="Japanese technology and related news. Headlines, short publisher-supplied excerpts and original links only. This submission does not grant permission to collect or republish full articles or images, or to use the material for model training."/>
+        </outline>
+    </body>
+</opml>
