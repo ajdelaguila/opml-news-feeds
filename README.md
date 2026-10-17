@@ -25,6 +25,9 @@ news-feed/
 ### Technology (English)
 - **tech-en.opml.xml** - Tech blogs, engineering, AI/ML, cloud, security
 
+### Technology (Japanese)
+- **tech-ja.opml.xml** - Japanese technology and related news
+
 ### Science (English)
 - **science-en.opml.xml** - Scientific publications and research
 
