@@ -28,6 +28,9 @@ news-feed/
 ### Technology (Japanese)
 - **tech-ja.opml.xml** - Japanese technology and related news
 
+### Technology (Chinese)
+- **tech-zh.opml.xml** - Chinese-language AI and technology news
+
 ### Science (English)
 - **science-en.opml.xml** - Scientific publications and research
 

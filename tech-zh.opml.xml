@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+    <head>
+        <title>Tech (ZH)</title>
+    </head>
+    <body>
+        <outline text="Tech (ZH)">
+            <outline text="AIHOT Daily" type="rss" xmlUrl="https://aihot.news/feed/daily.xml" htmlUrl="https://aihot.news/daily" description="Chinese-language AI reporting roundup with source links."/>
+        </outline>
+    </body>
+</opml>

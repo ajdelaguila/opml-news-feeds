@@ -8,6 +8,7 @@ sources:
   - tech-es.opml.xml
   - tech-ro.opml.xml
   - tech-ja.opml.xml
+  - tech-zh.opml.xml
   - science-es.opml.xml
   - science-ro.opml.xml
   - football-real-madrid.opml.xml
